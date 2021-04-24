@@ -91,7 +91,7 @@ namespace WPFClient
             name = namebox.Text;
             Password = Passwordbox.Password;
             //Then, run our RPC function, using the out mode parameters...
-
+            //
             Authenticator.GetValuesForRegister(in name,in Password);
             //And now, set the values in the GUI!
            
